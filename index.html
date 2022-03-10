@@ -347,7 +347,44 @@
             <section id="idocs_deployment">
               <h2>Html Structure</h2>
               <div class="alert alert-dark">
-                <pre class="prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- BEGIN: service-area --&gt;</span></li><li class="L1"><span class="tag"><span class="tag-q">&lt;</span>div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"service-area mt-90"</span><span class="tag"><span class="tag-q">&gt;</span></span></li><li class="L2"><span class="pln">   </span><span class="tag"><span class="tag-q">&lt;</span>div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"container"</span><span class="tag"><span class="tag-q">&gt;</span></span></li><li class="L3"><span class="pln">      </span><span class="tag"><span class="tag-q">&lt;</span>div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"text-contain"</span><span class="tag"><span class="tag-q">&gt;</span></span></li><li class="L4"><span class="pln">         </span><span class="tag"><span class="tag-q">&lt;</span>h3<span class="tag-q">&gt;</span></span><span class="pln">Are You Ready To Enjoy? Get This Perfect Theme Now!</span><span class="tag"><span class="tag-q">&lt;</span>/h3<span class="tag-q">&gt;</span></span></li><li class="L5"><span class="pln">         </span><span class="tag"><span class="tag-q">&lt;</span>p<span class="tag-q">&gt;</span></span><span class="pln">It is a long established fact that a reader will be distracted</span><span class="tag"><span class="tag-q">&lt;</span>/p<span class="tag-q">&gt;</span></span></li><li class="L6"><span class="pln">         </span><span class="tag"><span class="tag-q">&lt;</span>div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"button-contain"</span><span class="tag"><span class="tag-q">&gt;</span></span></li><li class="L7"><span class="pln">            </span><span class="tag"><span class="tag-q">&lt;</span>button<span class="tag-q">&gt;</span></span><span class="pln">Start Trial Free</span><span class="tag"><span class="tag-q">&lt;</span>/button<span class="tag-q">&gt;</span></span></li><li class="L8"><span class="pln">         </span><span class="tag"><span class="tag-q">&lt;</span>/div<span class="tag-q">&gt;</span></span></li><li class="L9"><span class="pln">      </span><span class="tag"><span class="tag-q">&lt;</span>/div<span class="tag-q">&gt;</span></span></li><li class="L0"><span class="pln">   </span><span class="tag"><span class="tag-q">&lt;</span>/div<span class="tag-q">&gt;</span></span></li><li class="L1"><span class="tag"><span class="tag-q">&lt;</span>/section<span class="tag-q">&gt;</span></span></li><li class="L2"></li></ol></pre>
+<pre>&lt;!doctype html&gt;
+&lt;html class="no-js" lang="en"&gt;
+    &lt;head&gt;
+        <span class="comment">&lt;!-- title --&gt;</span>
+        &lt;meta charset="utf-8"&gt;
+        <span class="comment">&lt;!-- description --&gt;</span>
+        &lt;meta name="description" content=""&gt;
+        <span class="comment">&lt;!-- keywords --&gt;</span>
+        &lt;meta name="keywords" content=""&gt;
+        <span class="comment">&lt;!-- favicon --&gt;</span>
+        <span class="comment">&lt;!-- style --&gt;</span>
+    &lt;/head&gt;
+    &lt;body&gt;
+        <span class="comment">&lt;!-- start header --&gt;</span>
+        &lt;header&gt;
+            <span class="comment">&lt;!-- start navigation --&gt;</span>
+            &lt;nav class="navbar navbar-expand-lg navbar-dark bg-transparent header-light fixed-top navbar-boxed header-reverse-scroll"&gt;
+                ...
+            &lt;/nav&gt;
+            <span class="comment">&lt;!-- end navigation --&gt;</span>
+        &lt;/header&gt;
+        <span class="comment">&lt;!-- end header --&gt;</span>
+        <span class="comment">&lt;!-- start sections --&gt;</span>
+        &lt;section&gt;
+            ...
+        &lt;/section&gt;
+        <span class="comment">&lt;!-- end sections --&gt;</span>
+        <span class="comment">&lt;!-- start footer --&gt;</span> 
+        &lt;footer&gt;
+            &lt;div class="container"&gt;
+                ...
+            &lt;/div&gt;
+        &lt;/footer&gt;
+        <span class="comment">&lt;!-- end footer --&gt;</span>
+        <span class="comment">&lt;!-- javascript libraries --&gt;</span>
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
+                <!-- <pre class="prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- BEGIN: service-area --&gt;</span></li><li class="L1"><span class="tag"><span class="tag-q">&lt;</span>div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"service-area mt-90"</span><span class="tag"><span class="tag-q">&gt;</span></span></li><li class="L2"><span class="pln">   </span><span class="tag"><span class="tag-q">&lt;</span>div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"container"</span><span class="tag"><span class="tag-q">&gt;</span></span></li><li class="L3"><span class="pln">      </span><span class="tag"><span class="tag-q">&lt;</span>div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"text-contain"</span><span class="tag"><span class="tag-q">&gt;</span></span></li><li class="L4"><span class="pln">         </span><span class="tag"><span class="tag-q">&lt;</span>h3<span class="tag-q">&gt;</span></span><span class="pln">Are You Ready To Enjoy? Get This Perfect Theme Now!</span><span class="tag"><span class="tag-q">&lt;</span>/h3<span class="tag-q">&gt;</span></span></li><li class="L5"><span class="pln">         </span><span class="tag"><span class="tag-q">&lt;</span>p<span class="tag-q">&gt;</span></span><span class="pln">It is a long established fact that a reader will be distracted</span><span class="tag"><span class="tag-q">&lt;</span>/p<span class="tag-q">&gt;</span></span></li><li class="L6"><span class="pln">         </span><span class="tag"><span class="tag-q">&lt;</span>div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"button-contain"</span><span class="tag"><span class="tag-q">&gt;</span></span></li><li class="L7"><span class="pln">            </span><span class="tag"><span class="tag-q">&lt;</span>button<span class="tag-q">&gt;</span></span><span class="pln">Start Trial Free</span><span class="tag"><span class="tag-q">&lt;</span>/button<span class="tag-q">&gt;</span></span></li><li class="L8"><span class="pln">         </span><span class="tag"><span class="tag-q">&lt;</span>/div<span class="tag-q">&gt;</span></span></li><li class="L9"><span class="pln">      </span><span class="tag"><span class="tag-q">&lt;</span>/div<span class="tag-q">&gt;</span></span></li><li class="L0"><span class="pln">   </span><span class="tag"><span class="tag-q">&lt;</span>/div<span class="tag-q">&gt;</span></span></li><li class="L1"><span class="tag"><span class="tag-q">&lt;</span>/section<span class="tag-q">&gt;</span></span></li><li class="L2"></li></ol></pre> -->
               </div>
             </section>
             <hr class="divider" />
