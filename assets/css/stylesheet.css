@@ -3342,4 +3342,15 @@ input:-internal-autofill-selected {
   left: -40px;
   border-radius: 4px 0px 0px 4px;
 }
+
+.demo-image-area .home-page-demo-img {
+  cursor: pointer;
+  -webkit-box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+}
+
+.alert-dark {
+  background: #f4f4f4;
+  border-color: transparent;
+}
 /*# sourceMappingURL=stylesheet.css.map */
