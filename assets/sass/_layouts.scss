@@ -57,9 +57,12 @@
       padding: 10px 15px;
       font-size: 14px;
       border-bottom: 1px solid rgba(#eee,0.1);
+      color: #fff;
 
       &:hover{
-       border-bottom: 1px solid rgba(#ff4838,0.5);
+       border-bottom: 1px solid rgba(#ff4838,0.35);
+         color: #ff4838 !important;
+
         
       }
     }

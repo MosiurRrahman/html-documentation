@@ -750,10 +750,12 @@ hr {
   padding: 10px 15px;
   font-size: 14px;
   border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+  color: #fff;
 }
 
 .idocs-navigation .nav .nav-link:hover {
-  border-bottom: 1px solid rgba(255, 72, 56, 0.5);
+  border-bottom: 1px solid rgba(255, 72, 56, 0.35);
+  color: #ff4838 !important;
 }
 
 .idocs-navigation .nav .nav-item:hover > .nav-link, .idocs-navigation .nav .nav-item .nav-link.active {
