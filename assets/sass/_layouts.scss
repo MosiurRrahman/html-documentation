@@ -53,10 +53,11 @@
       padding: 6px 30px;
       line-height: 25px;
       font-weight: 600;
+      text-transform: uppercase;
     }
     .nav-item {
       &:hover > .nav-link, .nav-link.active {
-        font-weight: 700;
+        font-weight: 600;
       }
     }
     .nav {
