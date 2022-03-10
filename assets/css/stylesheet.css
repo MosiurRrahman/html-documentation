@@ -3344,13 +3344,17 @@ input:-internal-autofill-selected {
 }
 
 .demo-image-area .home-page-demo-img {
-  cursor: pointer;
   -webkit-box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
           box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
 }
 
 .alert-dark {
   background: #f4f4f4;
-  border-color: transparent;
+  border: transparent;
+}
+
+pre {
+  margin-bottom: 0;
+  padding: 25px;
 }
 /*# sourceMappingURL=stylesheet.css.map */

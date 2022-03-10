@@ -29,11 +29,14 @@ $rfs-breakpoint: 992;
 
 .demo-image-area{
     .home-page-demo-img{
-        cursor: pointer;
         box-shadow: 3px 3px 20px rgba($color: #000000, $alpha: .2);
     }
 }
 .alert-dark{
     background: #f4f4f4;
-    border-color: transparent;
+    border: transparent;
+}
+pre{
+    margin-bottom: 0;
+    padding: 25px;
 }
