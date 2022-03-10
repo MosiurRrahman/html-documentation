@@ -33,7 +33,7 @@
   left: 0;
   overflow: hidden;
   overflow-y: auto;
-  width: 260px;
+  width: 270px;
   height: calc(100% - 70px);
   z-index: 1;
   border-right: 1px solid rgba(0, 0, 0, 0.05);
@@ -54,14 +54,16 @@
       line-height: 25px;
       font-weight: 600;
       text-transform: uppercase;
-      padding: 10px 15px;
+      padding: 15px 15px;
       font-size: 14px;
-      border-bottom: 1px solid rgba(#eee,0.1);
-      color: #fff;
+      border-bottom: 1px solid rgba(#eee,0.15);
+      color: #fff !important;
+      transition: all 0.4s ease-out 0s;
 
       &:hover{
-       border-bottom: 1px solid rgba(#ff4838,0.35);
-         color: #ff4838 !important;
+      //  border-bottom: 1px solid rgba(#ff4838,0.35);
+         color: #fff !important;
+         background: #ff4838 !important;
 
         
       }
