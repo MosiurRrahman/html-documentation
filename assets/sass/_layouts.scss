@@ -54,6 +54,14 @@
       line-height: 25px;
       font-weight: 600;
       text-transform: uppercase;
+      padding: 10px 15px;
+      font-size: 14px;
+      border-bottom: 1px solid rgba(#eee,0.1);
+
+      &:hover{
+       border-bottom: 1px solid rgba(#ff4838,0.5);
+        
+      }
     }
     .nav-item {
       &:hover > .nav-link, .nav-link.active {
