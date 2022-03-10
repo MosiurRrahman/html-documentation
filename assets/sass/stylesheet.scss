@@ -26,3 +26,17 @@ $rfs-breakpoint: 992;
 @import "elements";
 @import "footer";
 @import "extras";
+
+.demo-image-area{
+    .home-page-demo-img{
+        box-shadow: 3px 3px 20px rgba($color: #000000, $alpha: .2);
+    }
+}
+.alert-dark{
+    background: #f4f4f4;
+    border: transparent;
+}
+pre{
+    margin-bottom: 0;
+    padding: 25px;
+}
