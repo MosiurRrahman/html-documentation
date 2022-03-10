@@ -746,10 +746,11 @@ hr {
   padding: 6px 30px;
   line-height: 25px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .idocs-navigation .nav .nav-item:hover > .nav-link, .idocs-navigation .nav .nav-item .nav-link.active {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .idocs-navigation .nav .nav {
@@ -810,8 +811,6 @@ hr {
 
 .idocs-navigation.docs-navigation-dark .nav .nav-link {
   color: rgba(250, 250, 250, 0.85);
-  text-transform: uppercase;
-  padding-bottom: 15px;
 }
 
 .idocs-navigation.docs-navigation-dark .nav .nav .nav-link {
@@ -890,10 +889,6 @@ hr {
 /*=== 4.1 Main Navigation ===*/
 .navbar-light .navbar-nav .active > .nav-link {
   color: #0c2f55;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  text-transform: uppercase;
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show {
