@@ -27,7 +27,7 @@ $rfs-breakpoint: 992;
 @import "footer";
 @import "extras";
 
-.demo-btn{
+a.demo-btn{
     display: inline-block;
     border: 1px solid #fff;
     color: #fff;
@@ -39,10 +39,11 @@ $rfs-breakpoint: 992;
     text-transform: uppercase;
     font-weight: 600;
     transition: all 0.5s ease-out 0s;
-
+    text-decoration: none;
     &:hover{
         background-color: $primary-color;
         border: 1px solid $primary-color;
+        color: #fff;
     }
 }
 

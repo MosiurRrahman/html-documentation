@@ -3343,7 +3343,7 @@ input:-internal-autofill-selected {
   border-radius: 4px 0px 0px 4px;
 }
 
-.demo-btn {
+a.demo-btn {
   display: inline-block;
   border: 1px solid #fff;
   color: #fff;
@@ -3356,11 +3356,13 @@ input:-internal-autofill-selected {
   font-weight: 600;
   -webkit-transition: all 0.5s ease-out 0s;
   transition: all 0.5s ease-out 0s;
+  text-decoration: none;
 }
 
-.demo-btn:hover {
+a.demo-btn:hover {
   background-color: #ff4838;
   border: 1px solid #ff4838;
+  color: #fff;
 }
 
 .demo-image-area .home-page-demo-img {
