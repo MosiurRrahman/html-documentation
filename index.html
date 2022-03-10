@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no"
+    />
+    <link href="./assets/images/faviconS.png" rel="icon" />
+    <title>Documentation | AuctionLab</title>
+    <meta
+      name="description"
+      content="Your ThemeForest item Name and description"
+    />
+    <meta name="author" content="harnishdesign.net" />
+
+    <!-- Stylesheet
+============================== -->
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome Icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/font-awesome/css/all.min.css"
+    />
+    <!-- Magnific Popup -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/magnific-popup/magnific-popup.min.css"
+    />
+    <!-- Highlight Syntax -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/highlight.js/styles/github.css"
+    />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+  </head>
+<style>
+  .nav:not(.nav-pills) .nav-item .nav-link.active, .nav:not(.nav-pills) .nav-item .nav-link:hover {
+    color: #ff4838;}
+    a, a:focus {
+    color: #ff4838 ;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.primary-menu ul.navbar-nav > li > a:not(.btn){
+  color: #fff;
+}
+.primary-menu ul.navbar-nav > li:hover > a:not(.btn), .primary-menu ul.navbar-nav > li > a.active:not(.btn){
+  color: #ff4838
+}
+.btn-primary:hover {
+    background-color: #ff4838;
+    border-color: #ff4838;
+}
+</style>
+  <body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+    <!-- Preloader -->
+   <div class="preloader"> 
+      <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Document Wrapper   
+=============================== -->
+    <div id="main-wrapper">
+      <!-- Header
+  ============================ -->
+      <header id="header" class="sticky-top">
+        <!-- Navbar -->
+        <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+          <div class="container-fluid">
+            <!-- Sidebar Toggler -->
+            <button
+              id="sidebarCollapse"
+              class="navbar-toggler d-block d-md-none"
+              type="button"
+            >
+              <span></span><span class="w-75"></span><span class="w-50"></span>
+            </button>
+
+            <!-- Logo -->
+            <a class="logo ml-md-3" href="#" title="iDocs Template">
+              <img src="assets/images/logo.png" alt="EgensLab Template" />
+            </a>
+            <span class="text-2 ml-2">v1.0</span>
+            <!-- Logo End -->
+
+            <!-- Navbar Toggler -->
+            <button
+              class="navbar-toggler ml-auto"
+              type="button"
+              data-toggle="collapse"
+              data-target="#header-nav"
+            >
+              <span></span><span></span><span></span>
+            </button>
+
+            <div
+              id="header-nav"
+              class="collapse navbar-collapse justify-content-end"
+            >
+              <ul class="navbar-nav">
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://themeforest.net/user/egenslab"
+                    >Other Template</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://themeforest.net/user/egenslab"
+                    >Support</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
+              <li class="social-icons-twitter">
+                <a
+                  data-toggle="tooltip"
+                  href="http://www.twitter.com/EgensLab/"
+                  target="_blank"
+                  title=""
+                  data-original-title="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="social-icons-facebook">
+                <a
+                  data-toggle="tooltip"
+                  href="http://www.facebook.com/EgensLab/"
+                  target="_blank"
+                  title=""
+                  data-original-title="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="social-icons-dribbble">
+                <a
+                  data-toggle="tooltip"
+                  href="http://www.dribbble.com/EgensLab/"
+                  target="_blank"
+                  title=""
+                  data-original-title="Dribbble"
+                  ><i class="fab fa-dribbble"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Navbar End -->
+      </header>
+      <!-- Header End -->
+
+      <!-- Content
+  ============================ -->
+      <div id="content" role="main">
+        <!-- Sidebar Navigation
+	============================ -->
+        <div class="idocs-navigation bg-dark docs-navigation-dark">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#idocs_start">Getting Started</a>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#idocs_installation"
+                    >Installation</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_contact">Contact Form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_deployment">HTML Structure</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_dependencies">Plugin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_content">Content</a>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#idocs_typography">Typography</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_source_credits"
+                >Source & Credits</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_support">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_templates">More Templates</a>
+            </li> 
+          </ul>
+        </div>
+
+        <!-- Docs Content
+	============================ -->
+        <div class="idocs-content">
+          <div class="container">
+            <!-- Getting Started
+		============================ -->
+            <section id="idocs_start">
+              <h1>Documentation</h1>
+              <h2>AuctionLab - Bid And Auction HTML Template</h2>
+              <p class="lead">
+                First of all, Thank you so much for purchasing this template and
+                for being my loyal customer. You are awesome! You are entitled
+                to get free lifetime updates to this product + exceptional
+                support from the author directly.
+              </p>
+              
+              <p class="lead">
+                This documentation is to help you regarding each step of
+                customization. Please go through the documentation carefully to
+                understand how this template is made and how to edit this
+                properly. You may learn basics
+                <a
+                  href="https://reactjs.org/docs/getting-started.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >here</a
+                >, and
+                <a
+                  href="https://developer.mozilla.org/en-US/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >hare</a
+                >.
+              </p>
+              <p class="lead">
+                AuctionLab is an html template about various types of Bid and Auction. This template can be used for different types of purposes. It can be a very useful template for any kind of bid and auction purpose. Any type of entrepreneur can use this template. This template is powered by Bootstrap5 with SAAS files and completely SEO optimized with clean codes. It has also W3 validation markup. The design of this template is very unique and easy to customize that's why this template surely helps a lot.
+              </p>
+              
+              <hr class="divider" />
+              <div class="row">
+                <div class="col-sm-6 col-lg-6">
+                  <ul class="list-unstyled">
+                    <li><strong>Item Name:</strong> AuctionLab - Bid and Auction HTML Template</li>
+                    <li>
+                      <strong>Author:</strong>
+                      <a href="https://www.egenslab.com/" target="_blank"
+                        >EgensLab</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                  <ul class="list-unstyled">
+                    <li>
+                      <strong class="font-weight-700">Created:</strong> 01
+                      March, 2022
+                    </li>
+                    <li><strong>Version:</strong> 1.0</li>
+                    <!-- <li><strong>Update:</strong> 12 May, 2020</li> -->
+                  </ul>
+                </div>
+              </div>
+              <p class="alert alert-info">
+                If you have any questions that are beyond the scope of this help
+                file, Please feel free to email via
+                <a target="_blank" href="https://www.egenslab.com/contact/"
+                  >Item Support Page</a
+                >.
+              </p>
+            </section>
+
+            <hr class="divider" />
+
+            <!-- Installation
+		============================ -->
+            <section id="idocs_installation">
+              <h2>Installation</h2>
+              <p class="lead">
+                Follow the steps below to setup your site template:
+              </p>
+              <ol>
+                <li>
+                  Open auctionlab projct:
+                  <ul>
+                    <li>
+                      <code>Click <span>index.html</span> file</code>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  In your browser navigate to
+                  <strong>http://127.0.0.1:5500/index.html</strong>
+                </li>
+                <li>Thats all! Now you should see your site</li>
+              </ol>
+            </section>
+
+        
+
+            <hr class="divider" />
+
+            <!-- Sass
+		============================ -->
+            <section id="idocs_sass">
+              <h2>Sass</h2>
+              <p>
+                We have added SASS <code>.scss</code> files in template. If you
+                know how to use SASS you can change sass files and compile the
+                css as well. You can find sass file here -
+                <code>HTML/assets/sass</code>
+              </p>
+              <p>
+                Open the <code>sass/_variables.scss</code> and Edit the values
+                according to your needs. If you need more Advanced Setup then
+                you can Edit the Respective Files yourself which have been
+                branched inside the same Folder. It is completely at your
+                discretion only to include the Required <code>.scss</code> Files
+                you need to minimize the amount of CSS & including only the
+                Styles of the Blocks you need. This can be setup in your
+                <code>style.scss</code> File.
+              </p>
+            </section>
+
+            <hr class="divider" />
+
+            <!-- Contact from
+		============================ -->
+            <section id="idocs_contact">
+              <h2>Contact</h2>
+              <p>
+                This project uses the service EmailJS to work with contact form. It has versy simple and intuitive set up. All you need to do is create your own account and connect email with service. And then just put your own identification data in template code:
+              </p>
+            </section>
+            <hr class="divider" />
+            <!-- Deployment
+		============================ -->
+            <section id="idocs_deployment">
+              <h2>Html Structure</h2>
+              <div class="alert alert-dark">
+                <pre class="prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- BEGIN: service-area --&gt;</span></li><li class="L1"><span class="tag"><span class="tag-q">&lt;</span>div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"service-area mt-90"</span><span class="tag"><span class="tag-q">&gt;</span></span></li><li class="L2"><span class="pln">   </span><span class="tag"><span class="tag-q">&lt;</span>div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"container"</span><span class="tag"><span class="tag-q">&gt;</span></span></li><li class="L3"><span class="pln">      </span><span class="tag"><span class="tag-q">&lt;</span>div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"text-contain"</span><span class="tag"><span class="tag-q">&gt;</span></span></li><li class="L4"><span class="pln">         </span><span class="tag"><span class="tag-q">&lt;</span>h3<span class="tag-q">&gt;</span></span><span class="pln">Are You Ready To Enjoy? Get This Perfect Theme Now!</span><span class="tag"><span class="tag-q">&lt;</span>/h3<span class="tag-q">&gt;</span></span></li><li class="L5"><span class="pln">         </span><span class="tag"><span class="tag-q">&lt;</span>p<span class="tag-q">&gt;</span></span><span class="pln">It is a long established fact that a reader will be distracted</span><span class="tag"><span class="tag-q">&lt;</span>/p<span class="tag-q">&gt;</span></span></li><li class="L6"><span class="pln">         </span><span class="tag"><span class="tag-q">&lt;</span>div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"button-contain"</span><span class="tag"><span class="tag-q">&gt;</span></span></li><li class="L7"><span class="pln">            </span><span class="tag"><span class="tag-q">&lt;</span>button<span class="tag-q">&gt;</span></span><span class="pln">Start Trial Free</span><span class="tag"><span class="tag-q">&lt;</span>/button<span class="tag-q">&gt;</span></span></li><li class="L8"><span class="pln">         </span><span class="tag"><span class="tag-q">&lt;</span>/div<span class="tag-q">&gt;</span></span></li><li class="L9"><span class="pln">      </span><span class="tag"><span class="tag-q">&lt;</span>/div<span class="tag-q">&gt;</span></span></li><li class="L0"><span class="pln">   </span><span class="tag"><span class="tag-q">&lt;</span>/div<span class="tag-q">&gt;</span></span></li><li class="L1"><span class="tag"><span class="tag-q">&lt;</span>/section<span class="tag-q">&gt;</span></span></li><li class="L2"></li></ol></pre>
+              </div>
+            </section>
+
+            <hr class="divider" />
+            <!-- Plugin
+		============================ -->
+            <section id="idocs_dependencies">
+              <h2>Plugin</h2>
+              <p>
+                Following list of package will be included:
+              </p>
+              <div class="alert alert-dark" role="alert">
+                <ol>
+                  <li><strong>swiper js</strong></li>
+                  <li><strong>Bootstrap5</strong></li>
+                  <li><strong>Boxicon</strong></li>
+                  <li><strong>Bootstarp 5 icons</strong></li>
+                  <li><strong>Nice select</strong></li>
+                  <li><strong>magnific-popup</strong></li>
+                  <li><strong>jquery</strong></li>
+              </div>
+            </section>
+            
+            <hr class="divider" />
+            <!-- Typography
+		============================ -->
+            <section id="idocs_typography">
+              <h2>Typography</h2>
+              <p class="text-4">
+                Documentation and examples for typography, headings, body text,
+                lists, and more.
+              </p>
+              <h3>Headings</h3>
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Heading</th>
+                    <th>Example</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>&lt;h1&gt;&lt;/h1&gt;</code></td>
+                    <td><h1>h1. Heading</h1></td>
+                  </tr>
+                  <tr>
+                    <td><code>&lt;h2&gt;&lt;/h2&gt;</code></td>
+                    <td><h2>h2. Heading</h2></td>
+                  </tr>
+                  <tr>
+                    <td><code>&lt;h3&gt;&lt;/h3&gt;</code></td>
+                    <td><h3>h3. Heading</h3></td>
+                  </tr>
+                  <tr>
+                    <td><code>&lt;h4&gt;&lt;/h4&gt;</code></td>
+                    <td><h4>h4. Heading</h4></td>
+                  </tr>
+                  <tr>
+                    <td><code>&lt;h5&gt;&lt;/h5&gt;</code></td>
+                    <td><h5>h5. Heading</h5></td>
+                  </tr>
+                  <tr>
+                    <td><code>&lt;h6&gt;&lt;/h6&gt;</code></td>
+                    <td><h6>h6. Heading</h6></td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <hr class="divider" />
+            <!-- Source & Credits
+		============================ -->
+            <section id="idocs_source_credits">
+              <h2>Source & Credits</h2>
+              <h4>Images:</h4>
+              <ul>
+                <li>
+                  Unsplash -
+                  <a target="_blank" href="https://unsplash.com/"
+                    >https://unsplash.com/</a
+                  >
+                </li>
+              </ul>
+              <h4>Icons:</h4>
+              <ul>
+                <li>
+                  Icons Font Face -
+                  <a target="_blank" href="https://icons.getbootstrap.com/"
+                    >https://icons.getbootstrap.com</a
+                  >
+                </li> 
+                <li>
+                  Icons Font Face -
+                  <a target="_blank" href="https://boxicons.com/"
+                    >https://boxicons.com</a
+                  >
+                </li> 
+              </ul>
+              <h4>Scripts:</h4>
+              <ul>
+                <li>
+                  jQuery -
+                  <a target="_blank" href="http://www.jquery.com/"
+                    >http://www.jquery.com/</a
+                  >
+                </li>
+                <li>
+                  Bootstrap 5 -
+                  <a target="_blank" href="https://getbootstrap.com/docs/5.0"
+                    >http://getbootstrap.com/</a
+                  >
+                </li>
+                <li>
+                  swiperjs -
+                  <a target="_blank" href="https://highlightjs.org/"
+                    >https://swiperjs.com/get-started</a
+                  >
+                </li>
+                <li>
+                  Magnific Popup -
+                  <a
+                    target="_blank"
+                    href="https://dimsemenov.com/plugins/magnific-popup/"
+                    >https://dimsemenov.com/plugins/magnific-popup</a
+                  >
+                </li>
+              </ul>
+            </section>
+
+            <hr class="divider" />
+
+            <!-- Support
+		============================ -->
+            <section id="idocs_support">
+              <h2>Support</h2>
+              <p>
+                If this documentation doesn't answer your questions, So, Please
+                send us Email via
+                <a
+                  class="btn btn-primary"
+                  target="_blank"
+                  href="https://www.egenslab.com/contact/"
+                  >Item Support Page</a
+                >
+              </p>
+              <p>
+                We are located in GMT +5:30 time zone and we answer all
+                questions within 12-24 hours in weekdays. In some rare cases the
+                waiting time can be to 48 hours. (except holiday seasons which
+                might take longer).
+              </p>
+              <div class="alert alert-warning mb-4">
+                <span class="badge badge-danger text-uppercase">Note:</span>
+                While we aim to provide the best support possible, please keep
+                in mind that it only extends to verified buyers and only to
+                issues related to our template like bugs and errors. Custom
+                modifications or third party module implementations are not
+                included.
+              </div>
+              <h4>
+                Don’t forget to Rate this template
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+              </h4>
+              <div class="alert alert-success">
+                Please Add your Review (Opinion) for Our template. It would be a
+                great support for us.<br />
+                Go to your <strong><a href="http://https://themeforest.net/user/egenslab/portfolio" target="_blank" rel="noopener noreferrer">Themeforest Profile</a></strong> >
+                <strong>Downloads Tab</strong> > & then You can Rate & Review
+                for our template.<br />
+                Thank You.
+              </div>
+            </section>
+
+            <hr class="divider" />
+
+            <!-- More Templates
+		============================ -->
+            <section id="idocs_templates">
+              <h2>More Templates</h2>
+              <p class="lead">Checkout Our Below Premium Templates</p>
+
+              <div class="row">
+                <div class="col-4 my-3 text-center">
+                  <a
+                    target="_blank"
+                    href="https://themeforest.net/item/nftpro-nft-marketplace-template/34732960"
+                    ><img
+                      class="img-fluid border"
+                      src="assets/images/templates/NFT.png"
+                      alt=""
+                    />
+                    <h6 class="pt-2">NFTPro – NFT Marketplace Template</h6>
+                  </a>
+                </div>
+                <div class="col-4 my-3 text-center">
+                  <a
+                    target="_blank"
+                    href="https://themeforest.net/item/tourx-tours-and-travel-agency-html5-template/32963071"
+                    ><img
+                      class="img-fluid border"
+                      src="assets/images/templates/TourX.png"
+                      alt=""
+                    />
+                    <h6 class="pt-2">
+                      TourX – Corporate Business HTML Template
+                    </h6>
+                  </a>
+                </div>
+                <div class="col-4 my-3 text-center">
+                  <a
+                    target="_blank"
+                    href="https://themeforest.net/item/eventlab-event-conference-organization-html-template/34584946"
+                    ><img
+                      class="img-fluid border"
+                      src="assets/images/templates/EventLab.png"
+                      alt=""
+                    />
+                    <h6 class="pt-2">EventLab - Event & Conference Organization HTML Template</h6>
+                  </a>
+                </div>
+
+                <div class="col-4 my-3 text-center">
+                  <a
+                    target="_blank"
+                    href="https://themeforest.net/item/x/27172933?ref=HarnishDesign"
+                    ><img
+                      class="img-fluid border"
+                      src="assets/images/templates/Elency.png"
+                      alt=""
+                    />
+                    <h6 class="pt-2">Elency - Multipurpose Corporate Business HTML Template</h6>
+                  </a>
+                </div>
+                <div class="col-4 my-3 text-center">
+                  <a
+                    target="_blank"
+                    href="https://themeforest.net/item/eg-shop-fashion-multipurpose-ecommerce-html-template/34195218"
+                    ><img
+                      class="img-fluid border"
+                      src="assets/images/templates/EG-Shop.png"
+                      alt=""
+                    />
+                    <h6 class="pt-2">
+                      EG Shop Fashion - Multipurpose eCommerce HTML Template
+                    </h6>
+                  </a>
+                </div>
+                <div class="col-4 my-3 text-center">
+                  <a
+                    target="_blank"
+                    href="https://themeforest.net/item/finibus-software-and-digital-agency-html-template/36299967?s_rank=1"
+                    ><img
+                      class="img-fluid border"
+                      src="assets/images/templates/finibus.png"
+                      alt=""
+                    />
+                    <h6 class="pt-2">
+                      AuctionLab - Bid And Auction HTML Template
+                    </h6>
+                  </a>
+                </div>
+              </div>
+
+              <p class="text-center">
+                <a
+                  class="btn btn-lg btn-primary my-4"
+                  target="_blank"
+                  href="https://themeforest.net/user/egenslab/portfolio"
+                  >Our Portfolio</a
+                >
+              </p>
+            </section>
+
+            <hr class="divider" />
+
+            
+        </div>
+      </div>
+      <!-- Content end -->
+
+      <!-- Footer
+  ============================ -->
+      <footer id="footer" class="section bg-dark footer-text-light">
+        <div class="container">
+          <ul
+            class="
+              social-icons social-icons-lg social-icons-muted
+              justify-content-center
+              mb-3
+            "
+          >
+            <li>
+              <a
+                data-toggle="tooltip"
+                href="https://twitter.com/EgensLab/"
+                target="_blank"
+                title=""
+                data-original-title="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                data-toggle="tooltip"
+                href="https://www.facebook.com/egenslab/"
+                target="_blank"
+                title=""
+                data-original-title="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                data-toggle="tooltip"
+                href="https://dribbble.com/egenslab/"
+                target="_blank"
+                title=""
+                data-original-title="Dribbble"
+                ><i class="fab fa-dribbble"></i
+              ></a>
+            </li>
+          </ul>
+          <p class="text-center">
+            Copyright &copy; 2022
+            <a
+              href="https://themeforest.net/user/egenslab"
+              >EgensLab</a
+            >. All Rights Reserved.
+          </p>
+          <p class="text-2 text-center mb-0">
+            Design &amp; Develop by
+            <a
+              class="btn-link"
+              target="_blank"
+              href="https://www.egenslab.com/"
+              >EgensLab</a
+            >.
+          </p>
+        </div>
+      </footer>
+      <!-- Footer end -->
+    </div>
+    <!-- Document Wrapper end -->
+
+    <!-- Back To Top -->
+    <a
+      id="back-to-top"
+      data-toggle="tooltip"
+
+      title="Back to Top"
+      href="javascript:void(0)"
+      ><i class="fa fa-chevron-up"></i
+    ></a>
+
+    <!-- JavaScript
+============================ -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Highlight JS -->
+    <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+    <!-- Easing -->
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Custom Script -->
+    <script src="assets/js/theme.js"></script>
+  </body>
+</html>
